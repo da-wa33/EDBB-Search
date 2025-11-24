@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "EDBB Search",
+  "version": "1.0",
+  "description": "EDBBに検索を追加します。",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://himais0giiiin.com/beta*",
+        "https://himais0giiiin.com/editor*"
+      ],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": [
+        "https://himais0giiiin.com/*"
+      ]
+    }
+  ]
+}
