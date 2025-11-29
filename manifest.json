@@ -10,7 +10,8 @@
     {
       "matches": [
         "https://himais0giiiin.com/beta*",
-        "https://himais0giiiin.com/editor*"
+        "https://himais0giiiin.com/editor*",
+        "https://beta-edbb.himaiso.workers.dev/*"
       ],
       "js": ["content.js"],
       "css": ["style.css"]
@@ -20,7 +21,8 @@
     {
       "resources": ["inject.js"],
       "matches": [
-        "https://himais0giiiin.com/*"
+        "https://himais0giiiin.com/*",
+        "https://beta-edbb.himaiso.workers.dev/*"
       ]
     }
   ]
